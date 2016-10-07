@@ -17,7 +17,7 @@ public class AfterBeforeCoordinatorLayout extends AbsCoordinatorLayout {
 
     private SwipeLayout mForegroundView;
     private View mForegroundImage;
-    int rightLimit;
+    private int mRightLimit;
 
     public AfterBeforeCoordinatorLayout(Context context) {
         super(context);
@@ -40,13 +40,13 @@ public class AfterBeforeCoordinatorLayout extends AbsCoordinatorLayout {
         mForegroundView = (SwipeLayout) findViewById(R.id.foregroundView);
         View mBackgroundView = findViewById(R.id.backgroundView);
         int handlerWidth = getResources().getDimensionPixelSize(R.dimen.handler_width);
-        rightLimit = mBackgroundView.getRight() - handlerWidth;
-        mForegroundView.anchor(rightLimit, mBackgroundView.getLeft());
+        mRightLimit = mBackgroundView.getRight() - handlerWidth;
+        mForegroundView.anchor(mRightLimit, mBackgroundView.getLeft());
         mForegroundImage = mForegroundView.findViewById(R.id.foreground_image);
     }
 
     @Override
     public void onTranslateChange(float globalPercent, int index, float relativePercent) {
-        mForegroundImage.setTranslationX(-1 * (rightLimit * globalPercent));
+        mForegroundImage.setTranslationX(-1 * (mRightLimit * globalPercent));
     }
 }
