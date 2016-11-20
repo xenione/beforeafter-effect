@@ -1,4 +1,4 @@
-# AfterBeforeEffect
+# BeforeAfterEffect
 
 After-Before swipe effect using [Easy Swipe Maker Library](https://github.com/xenione/SwipeLayout)
 
