@@ -22,7 +22,7 @@ Add the dependency
 
 ```java 
 dependencies {
-    compile 'com.github.xenione:beforeafter-effect:v.1.1.0'
+    compile 'com.github.xenione:beforeafter-effect:1.1.1'
 
 }
 ```
