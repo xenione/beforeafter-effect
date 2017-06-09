@@ -1,4 +1,5 @@
-# BeforeAfterEffect
+# BeforeAfterEffect [![](https://jitpack.io/v/xenione/beforeafter-effect.svg)](https://jitpack.io/#xenione/beforeafter-effect)
+
 
 After-Before swipe effect is using [Easy Swipe Maker Library](https://github.com/xenione/SwipeLayout). Have a look if you want to create your own amazing swipe  effects
 
