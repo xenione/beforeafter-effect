@@ -1,4 +1,4 @@
-# BeforeAfterEffect [![](https://jitpack.io/v/xenione/beforeafter-effect.svg)](https://jitpack.io/#xenione/beforeafter-effect)
+# BeforeAfterEffect [![](https://jitpack.io/v/xenione/beforeafter-effect.svg)](https://jitpack.io/#xenione/beforeafter-effect)[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-BeforeAfter%20Effect-brightgreen.svg?style=flat)](https://android-arsenal.com/details/1/4690)
 
 
 After-Before swipe effect is using [Easy Swipe Maker Library](https://github.com/xenione/SwipeLayout). Have a look if you want to create your own amazing swipe  effects
